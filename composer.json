@@ -3,7 +3,8 @@
     "description": "Simple notifier",
     "type": "library",
     "require": {
-        "monolog/monolog": "^1.24"
+        "monolog/monolog": "^1.24",
+        "ruslan/notifier": "dev-master"
     },
     "autoload" : {
         "psr-4": {
