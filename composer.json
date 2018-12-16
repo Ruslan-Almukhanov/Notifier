@@ -1,0 +1,19 @@
+{
+    "name": "ruslan/notifier",
+    "description": "Simple notifier",
+    "type": "library",
+    "require": {
+        "monolog/monolog": "^1.24"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Ruslan\\Notifier\\":"src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan Almukhanov",
+            "email": "ruslanalmukhanov@gmail.com"
+        }
+    ]
+}
