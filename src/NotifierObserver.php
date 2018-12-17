@@ -15,7 +15,7 @@ class NotifierObserver implements NotifierObserverInterface
 
     public function add(NotifierAdapterInterface $adapter)
     {
-        $this->adapters = $adapter;
+        $this->adapters[] = $adapter;
     }
 
     public function notice(string $message)
